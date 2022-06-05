@@ -1,33 +1,48 @@
 const express = require('express');
 const path = require('path');
-
-
 const app = express();
-
 //middlewares
-app.use('./static', express.static(__dirname+'./public'));
-
-
-
+const publicPath = path.resolve(__dirname, './public');
+app.use(express.static(publicPath));
 //rutas: get, post, put, delete
-
-app.get('/contacto', (req, res)=>{
-  res.send('Dejanos tu contacto');
-});
-app.get('/unArray', (req, res)=>{
-  res.send([1,2,3,4]);
-});
-app.get('/unObjeto', (req, res)=>{
-  res.send({name: 'Alejandro'});
-});
-
-app.get('/', (req,res)=>{
-  res.send();
-});
-
+app.get('/', (req, res)=>{
+  res.sendFile(path.resolve(__dirname,'./views/index.html'));
+})
 
 
 app.listen(3001, ()=> console.log("Servidor escuchando en puerto 3001"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 1) crear directorio y entrar en él
