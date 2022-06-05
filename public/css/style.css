@@ -1,13 +1,6 @@
-.fa-solid{
-    background-color: white;
+body {
+    font-family: 'Roboto', sans-serif;
 }
-titulares{
+li {
     font-size: 24px;
-}
-body{
-    font-size: 24px;
-}
-
-.burger-menu{
-    width: 200px;
 }
