@@ -2,8 +2,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 //middlewares
-const publicPath = path.resolve(__dirname, './public');
-app.use(express.static(publicPath));
+app.use(express.static('public'));
 //rutas: get, post, put, delete
 app.get('/', (req, res)=>{
   res.sendFile(path.resolve(__dirname,'./views/index.html'));
