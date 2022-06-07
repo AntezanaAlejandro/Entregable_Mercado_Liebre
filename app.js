@@ -1,3 +1,4 @@
+//Constantes
 const express = require('express');
 const path = require('path');
 const app = express();
@@ -7,6 +8,5 @@ app.use(express.static('public'));
 app.get('/', (req, res)=>{
   res.sendFile(path.resolve(__dirname,'./views/index.html'));
 })
-
-
+//Ruteo de servidor
 app.listen(3001, ()=> console.log("Servidor escuchando en puerto 3001"));

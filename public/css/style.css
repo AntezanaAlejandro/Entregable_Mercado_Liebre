@@ -1,21 +1,93 @@
 /*HEADER*/
+.main{
+    width: 90%;
+    margin-left: 24px;
+}
 header section section{
-    background-color:rgb(183, 181, 181);
+    background-color:rgb(226, 226, 226);
 }
 header section article{
     background-color: white;
 }
-/*BODY*/
-body {
-    font-family: 'Roboto', sans-serif;
+.top{
+    margin-left: 30px;
+    text-align: center;
+}
+.credito{
+    text-align: center;
+}
+.logo{
+    text-align: center;
+}
+.buscador{
+    font-size: 20px;
+    display: inline;
+    text-align: center;
 }
 i.fa-solid.fa-magnifying-glass{
-    background-color: #ebebeb;
+    background-color: white;
+    font-size: 23px;
+    margin-left: 4px;
+    border: 1px solid rgba(0,0,0,0.5) 
+}
+.box-burger{
+    text-align: center;
+}
+i.fas.fa-bars{
+    background-color:#050066;
+    color: white;
+    text-align: center;
+    line-height: 42px;
+    width: 40px;           
+    height: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 25px;
+}
+.banner{
+    text-align: center;
+    
+}
+
+
+
+/*BODY*/
+.credito{
+    margin-left: 28px;
+    margin-top: 20px;
+}
+.index{
+    color: #050066;
+    text-decoration: underline;
+}
+body {
+    font-family: 'Roboto', sans-serif;
 }
 section strong{
     font-size: 24px;
     line-height: 32px;
 }
+.article{
+    margin-bottom: 10px;
+}
+.image-article{
+    text-align: center;
+}
+.line{
+    border-top: 1px solid #ebebeb;
+}
+.detail{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+i.fa-solid.fa-truck{
+    color: #39b54a;
+}
+
+
+
+
 p1{
     font-size: 16px;
     line-height: 26px;
@@ -46,6 +118,12 @@ footer{
     text-align: center;
     background-color: white;
 }
+.design-footer{
+    width:95%;
+    background-color: white;
+    border-left: 35px solid white;
+    border-right: 35px solid white;
+}
 i.fa-solid.fa-credit-card{
     font-size: 40px;
     color: blue;
@@ -58,13 +136,11 @@ i.fa-solid.fa-user-shield{
     font-size: 40px;
     color: blue;
 }
-i.fas.fa-bars{
-    background-color:#0b0496;
-    color: white;
-    text-align:center;
-    line-height: 42px;
-    width: 40px;           
-    height: 40px;
-    border: 1px solid #000;
-    font-size: 25px;
+.design-articles{
+    width:95%;
+    background-color:rgb(226, 226, 226);
+    border-left: 35px solid rgb(226, 226, 226);
+    border-right: 35px solid rgb(226, 226, 226);
+    border-bottom: 10px solid rgb(226, 226, 226);
+    border-top: 40px solid rgb(226, 226, 226);
 }
