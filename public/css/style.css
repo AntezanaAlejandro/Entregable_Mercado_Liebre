@@ -1,37 +1,61 @@
+/*BREAKPOINT SMARTPHONE*/
+@media(max-width: 480px){
+*{box-sizing: border-box;}
 /*HEADER*/
 .main{
-    width: 90%;
-    margin-left: 24px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
 }
-header section section{
-    background-color:rgb(226, 226, 226);
-}
-header section article{
-    background-color: white;
+header{
+    width: 100vw;
 }
 .top{
-    margin-left: 30px;
     text-align: center;
+    height: 8vh;
+}
+.bloque-logo{
+    padding-top: 2%;
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+}
+.bloque-logo img{
+    width: 100%;
+    height: 100%;
+}
+.bloque-buscador{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    block-size: border-box;
+}
+.bloque-buscador input{
+    width: 80%;
+    height: 40%;
+    display: inline-block;
+}
+i.fa-solid.fa-magnifying-glass{
+    display: inline-block;
+    width: 11%;
+    font-size: 23px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.5); 
+}
+
+.bloque-categorias{
+    width:100vw;
+    height: 20vh;
 }
 .credito{
     text-align: center;
-}
-.logo{
-    text-align: center;
-}
-.buscador{
-    font-size: 20px;
-    display: inline;
-    text-align: center;
-}
-i.fa-solid.fa-magnifying-glass{
-    background-color: white;
-    font-size: 23px;
-    margin-left: 4px;
-    border: 1px solid rgba(0,0,0,0.5) 
+    padding-top: 12%;
+    width: 100%;
+    height: 50%;
 }
 .box-burger{
+    padding-top: 2%;
     text-align: center;
+    height: 50%;
 }
 i.fas.fa-bars{
     background-color:#050066;
@@ -43,42 +67,47 @@ i.fas.fa-bars{
     border: 1px solid rgb(255, 255, 255);
     font-size: 25px;
 }
-.banner{
-    text-align: center;
-    
+.banner img{
+    width: 100vw;
+    display: block;
 }
 
 
-
-/*BODY*/
-.credito{
-    margin-left: 28px;
-    margin-top: 20px;
-}
 .index{
-    color: #050066;
-    text-decoration: underline;
-}
-body {
-    font-family: 'Roboto', sans-serif;
+    visibility: hidden;
+    display: none;
 }
 section strong{
     font-size: 24px;
     line-height: 32px;
 }
+
+header section section{
+    background-color:rgb(226, 226, 226);
+}
+header section article{
+    background-color: white;
+}
+.container{
+    flex-wrap:wrap;
+}
 .article{
     margin-bottom: 10px;
 }
-.image-article{
+.image-article img{
     text-align: center;
+    width: 95%; 
+    height: 95%;
+    margin-bottom: 10px;    
 }
 .line{
     border-top: 1px solid #ebebeb;
 }
 .detail{
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin:15px;
+}
+.detail p4{
+    visibility: hidden;
 }
 
 i.fa-solid.fa-truck{
@@ -119,7 +148,7 @@ footer{
     background-color: white;
 }
 .design-footer{
-    width:95%;
+    width:100vw;
     background-color: white;
     border-left: 35px solid white;
     border-right: 35px solid white;
@@ -137,10 +166,364 @@ i.fa-solid.fa-user-shield{
     color: blue;
 }
 .design-articles{
-    width:95%;
+    width:100vw;
     background-color:rgb(226, 226, 226);
     border-left: 35px solid rgb(226, 226, 226);
     border-right: 35px solid rgb(226, 226, 226);
     border-bottom: 10px solid rgb(226, 226, 226);
     border-top: 40px solid rgb(226, 226, 226);
 }
+}
+
+/*BREAKPOINT TABLETS*/
+@media(min-width: 481px){
+*{box-sizing: border-box;}
+/*HEADER*/
+.main{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+header{
+    width: 100vw;
+}
+.top{
+    text-align: center;
+    height: 8vh;
+}
+.bloque-logo{
+    padding-top: 2%;
+    width: 30vw;
+    height: 100%;
+    display: inline-block;
+}
+.bloque-logo img{
+    width: 100%;
+    height: 100%;
+}
+.bloque-buscador{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    block-size: border-box;
+}
+.bloque-buscador input{
+    width: 80%;
+    height: 40%;
+    display: inline-block;
+}
+i.fa-solid.fa-magnifying-glass{
+    display: inline-block;
+    width: 11%;
+    font-size: 23px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.5); 
+}
+
+.bloque-categorias{
+    width:100vw;
+    height: 20vh;
+}
+.credito{
+    text-align: center;
+    padding-top: 4%;
+    width: 100%;
+    height: 30%;
+}
+.index{
+    color: #050066;
+    text-decoration: underline;
+    width: 100%;
+    height: 70%;
+}
+
+.box-burger{
+    visibility: hidden;
+    display: none;
+}
+i.fas.fa-bars{
+    background-color:#050066;
+    color: white;
+    text-align: center;
+    line-height: 42px;
+    width: 40px;           
+    height: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 25px;
+}
+.banner img{
+    width: 100%;
+    display: block;
+}
+
+section strong{
+    font-size: 24px;
+    line-height: 32px;
+}
+
+header section section{
+    background-color:rgb(226, 226, 226);
+}
+header section article{
+    background-color: white;
+}
+.container{
+    flex-wrap:wrap;
+}
+.article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin-bottom: 10px;
+}
+.image-article img{
+    text-align: center;
+    width: 95%; 
+    height: 100%;    
+}
+.line{
+    border-top: 1px solid #ebebeb;
+}
+.detail{
+    padding: 15px;
+}
+
+i.fa-solid.fa-truck{
+    color: #39b54a;
+}
+
+
+
+
+p1{
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    background-color: blue;
+}
+p2{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+}
+p3{
+    font-size: 16px;
+    line-height: 26px;
+    color: #39b54a;
+}
+p4{
+    font-size: 16px;
+    line-height: 26px;
+}
+p5{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+/*FOOTER*/
+footer{
+    text-align: center;
+    background-color: white;
+}
+.design-footer{
+    width:100vw;
+    background-color: white;
+    border-left: 35px solid white;
+    border-right: 35px solid white;
+}
+i.fa-solid.fa-credit-card{
+    font-size: 40px;
+    color: blue;
+}
+i.fa-solid.fa-gift{
+    font-size: 40px;
+    color: blue;
+}
+i.fa-solid.fa-user-shield{
+    font-size: 40px;
+    color: blue;
+}
+.design-articles{
+    width:100vw;
+    background-color:rgb(226, 226, 226);
+    border-left: 35px solid rgb(226, 226, 226);
+    border-right: 35px solid rgb(226, 226, 226);
+    border-bottom: 10px solid rgb(226, 226, 226);
+    border-top: 40px solid rgb(226, 226, 226);
+}
+}
+
+/*BREAKPOINT DESKTOP*/
+@media(min-width: 769px)and(orientation =landscape){
+*{box-sizing: border-box;}
+/*HEADER*/
+.main{
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+}
+header{
+    width: 100vw;
+}
+.top{
+    text-align: center;
+    height: 8vh;
+}
+.bloque-logo{
+    width: 30vw;
+    height: 100%;
+    display: inline-block;
+}
+.bloque-logo img{
+    width: 100%;
+    height: 100%;
+}
+.bloque-buscador{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    block-size: border-box;
+}
+.bloque-buscador input{
+    width: 80%;
+    height: 40%;
+    display: inline-block;
+}
+i.fa-solid.fa-magnifying-glass{
+    display: inline-block;
+    width: 11%;
+    font-size: 23px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.5); 
+}
+
+.bloque-categorias{
+    width:100vw;
+    height: 20vh;
+}
+.credito{
+    text-align: center;
+    padding-top: 2%;
+    width: 100%;
+    height: 40%;
+}
+
+.box-burger{
+    text-align: center;
+}
+i.fas.fa-bars{
+    background-color:#050066;
+    color: white;
+    text-align: center;
+    line-height: 42px;
+    width: 40px;           
+    height: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 25px;
+}
+.banner img{
+    width: 100%;
+    display: block;
+}
+
+
+
+.credito{
+    margin-left: 28px;
+    margin-top: 20px;
+}
+.index{
+    color: #050066;
+    text-decoration: underline;
+}
+section strong{
+    font-size: 24px;
+    line-height: 32px;
+}
+
+header section section{
+    background-color:rgb(226, 226, 226);
+}
+header section article{
+    background-color: white;
+}
+.container{
+    flex-wrap:wrap;
+}
+.article{
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+}
+.image-article img{
+    text-align: center;
+    width: 95%; 
+    height: 95%;    
+}
+.line{
+    border-top: 1px solid #ebebeb;
+}
+.detail{
+    padding: 15px;
+}
+
+i.fa-solid.fa-truck{
+    color: #39b54a;
+}
+
+
+
+
+p1{
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    background-color: blue;
+}
+p2{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+}
+p3{
+    font-size: 16px;
+    line-height: 26px;
+    color: #39b54a;
+}
+p4{
+    font-size: 16px;
+    line-height: 26px;
+}
+p5{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+/*FOOTER*/
+footer{
+    text-align: center;
+    background-color: white;
+}
+.design-footer{
+    width:100vw;
+    background-color: white;
+    border-left: 35px solid white;
+    border-right: 35px solid white;
+}
+i.fa-solid.fa-credit-card{
+    font-size: 40px;
+    color: blue;
+}
+i.fa-solid.fa-gift{
+    font-size: 40px;
+    color: blue;
+}
+i.fa-solid.fa-user-shield{
+    font-size: 40px;
+    color: blue;
+}
+.design-articles{
+    width:100vw;
+    background-color:rgb(226, 226, 226);
+    border-left: 35px solid rgb(226, 226, 226);
+    border-right: 35px solid rgb(226, 226, 226);
+    border-bottom: 10px solid rgb(226, 226, 226);
+    border-top: 40px solid rgb(226, 226, 226);
+}
+}
+
