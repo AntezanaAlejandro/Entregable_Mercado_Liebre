@@ -1,22 +1,33 @@
 /*BREAKPOINT SMARTPHONE*/
 @media(max-width: 480px){
 *{box-sizing: border-box;}
-/*HEADER*/
+/*PADRES*/
 .main{
     font-family: 'Roboto', sans-serif;
     width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 header{
     width: 100vw;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .top{
     text-align: center;
-    height: 8vh;
+    height: 26vh;
+    flex-direction: column;
 }
+
+
+
+/*HEADERS*/
 .bloque-logo{
     padding-top: 2%;
-    width: 100vw;
-    height: 100%;
+    width: 50vw;
+    height: 40%;
     display: inline-block;
 }
 .bloque-logo img{
@@ -24,99 +35,136 @@ header{
     height: 100%;
 }
 .bloque-buscador{
-    display: inline-block;
-    width: 60%;
-    height: 100%;
+    display: flex;
+    width: 100%;
+    height: 16%;
     block-size: border-box;
+    justify-content: center;
 }
-.bloque-buscador input{
-    width: 80%;
-    height: 40%;
-    display: inline-block;
+.buscador{
+    display: flex;
+    width: 55vw;
+    height: 80%;
+}
+.buscador input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
 }
 i.fa-solid.fa-magnifying-glass{
-    display: inline-block;
-    width: 11%;
+    display: flex;
+    min-width: 25px;
+    max-width: 7vw;
+    height: 78%;
+    flex-grow: 1;
     font-size: 23px;
     background-color: white;
     border: 1px solid rgba(0,0,0,0.5); 
 }
+.bloque-categorias{
+    width:100vw;
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.index-left{
+    visibility: hidden;
+    display: none;
+}
+.index-right{
+    visibility: hidden;
+    display: none;
+}
+.credito{
+    text-align: center;
+    width: 100%;
+    height: 15%;
+}
+.box-burger{
+    height: 20%;
+}
+i.fas.fa-bars{
+    background-color:#03264c;
+    color:  #ffff;
+    display: block;
+    max-width: 50px;           
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+}
+.banner{
+    box-shadow: 0px 0px 10px 1px rgb(100, 100, 100); 
+}
+.banner img{
+    height: 12vh;
+    width: 100%;
+}
 
+
+
+/*ARTICULOS*/
+.tituloVisitas{
+    font-size: 24px;
+    line-height: 40px;
+    height: 40%;
+    padding-left: 35px;
+    background-color:rgb(226, 226, 226);
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+}
 .bloque-categorias{
     width:100vw;
     height: 20vh;
 }
-.credito{
-    text-align: center;
-    padding-top: 12%;
-    width: 100%;
-    height: 50%;
+.containerProducts{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.box-burger{
-    padding-top: 2%;
-    text-align: center;
-    height: 50%;
-}
-i.fas.fa-bars{
-    background-color:#050066;
-    color: white;
-    text-align: center;
-    line-height: 42px;
-    width: 40px;           
-    height: 40px;
-    border: 1px solid rgb(255, 255, 255);
-    font-size: 25px;
-}
-.banner img{
-    width: 100vw;
-    display: block;
-}
-
-
-.index{
-    visibility: hidden;
-    display: none;
-}
-section strong{
-    font-size: 24px;
-    line-height: 32px;
-}
-
-header section section{
+.containerA{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    height: 35%h;
     background-color:rgb(226, 226, 226);
+    justify-content: space-around;
 }
-header section article{
-    background-color: white;
-}
-.container{
-    flex-wrap:wrap;
+.containerB{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    height: 35%h;
+    background-color:rgb(226, 226, 226);
+    justify-content: space-around;
+    flex-grow: 1;
 }
 .article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 38vh;
     margin-bottom: 10px;
 }
 .image-article img{
     text-align: center;
-    width: 95%; 
-    height: 95%;
-    margin-bottom: 10px;    
+    width: 100%; 
+    height: 100%;    
 }
 .line{
     border-top: 1px solid #ebebeb;
 }
 .detail{
-    margin:15px;
+    padding: 15px;
+    width: 100%;
+    background-color:#ffff;
 }
-.detail p4{
-    visibility: hidden;
-}
-
 i.fa-solid.fa-truck{
     color: #39b54a;
 }
-
-
-
-
 p1{
     font-size: 16px;
     line-height: 26px;
@@ -141,6 +189,8 @@ p5{
     font-size: 12px;
     line-height: 20px;
 }
+
+
 
 /*FOOTER*/
 footer{
@@ -178,22 +228,34 @@ i.fa-solid.fa-user-shield{
 /*BREAKPOINT TABLETS*/
 @media(min-width: 481px){
 *{box-sizing: border-box;}
-/*HEADER*/
+/*PADRES*/
 .main{
     font-family: 'Roboto', sans-serif;
     width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 header{
     width: 100vw;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .top{
-    text-align: center;
-    height: 8vh;
+    max-height: 50vh;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
+
+
+
+/*HEADERS*/
 .bloque-logo{
-    padding-top: 2%;
+    padding: 2% 2% 2% 4%;
     width: 30vw;
-    height: 100%;
+    height: 30%;
     display: inline-block;
 }
 .bloque-logo img{
@@ -201,81 +263,132 @@ header{
     height: 100%;
 }
 .bloque-buscador{
-    display: inline-block;
-    width: 60%;
-    height: 100%;
+    padding-top: 38px;
+    display: flex;
+    width: 40vw;
+    height: 30%;
     block-size: border-box;
+    justify-content: flex-start;
 }
-.bloque-buscador input{
-    width: 80%;
+.buscador{
+    display: flex;
+    width: 55vw;
     height: 40%;
-    display: inline-block;
+}
+.buscador input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
 }
 i.fa-solid.fa-magnifying-glass{
-    display: inline-block;
-    width: 11%;
+    padding: 2px;
+    display: flex;
+    min-width: 30px;
+    max-width: 7vw;
+    min-height: 28px;
+    max-height: 7vw;
+    flex-grow: 1;
     font-size: 23px;
     background-color: white;
     border: 1px solid rgba(0,0,0,0.5); 
 }
+.credito{
+    padding-left: 30px;
+    display: flex;
+    text-align: center;
+    padding-top: 4%;
+    width: 25vw;
+    height: 30%;
+}
+.container-box{
+    height: 60%;
+}
+.index-box{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.index-left{
+    color: #050066;
+    text-decoration: underline;
+    width: 50%;
+    height: 70%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+.index-right{
+    color: #050066;
+    text-decoration: underline;
+    width: 50%;
+    height: 70%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+i.fas.fa-bars{
+    visibility: hidden;
+    display: none;
+}
+.banner{
+    height: 100%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+}
+.banner img{
+    height: 20vh;
+    width: 100%;
+}
 
+/*ARTICULOS*/
+.tituloVisitas{
+    font-size: 24px;
+    line-height: 40px;
+    height: 40%;
+    padding-left: 35px;
+    background-color:rgb(226, 226, 226);
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+}
 .bloque-categorias{
     width:100vw;
     height: 20vh;
 }
-.credito{
-    text-align: center;
-    padding-top: 4%;
-    width: 100%;
-    height: 30%;
+.containerProducts{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.index{
-    color: #050066;
-    text-decoration: underline;
-    width: 100%;
-    height: 70%;
-}
-
-.box-burger{
-    visibility: hidden;
-    display: none;
-}
-i.fas.fa-bars{
-    background-color:#050066;
-    color: white;
-    text-align: center;
-    line-height: 42px;
-    width: 40px;           
-    height: 40px;
-    border: 1px solid rgb(255, 255, 255);
-    font-size: 25px;
-}
-.banner img{
-    width: 100%;
-    display: block;
-}
-
-section strong{
-    font-size: 24px;
-    line-height: 32px;
-}
-
-header section section{
+.containerA{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    height: 35%h;
     background-color:rgb(226, 226, 226);
+    justify-content: space-around;
 }
-header section article{
-    background-color: white;
-}
-.container{
-    flex-wrap:wrap;
+.containerB{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    height: 35%h;
+    background-color:rgb(226, 226, 226);
+    justify-content: space-around;
+    flex-grow: 1;
 }
 .article{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 38vh;
     margin-bottom: 10px;
 }
 .image-article img{
     text-align: center;
-    width: 95%; 
+    width: 100%; 
     height: 100%;    
 }
 .line{
@@ -283,15 +396,12 @@ header section article{
 }
 .detail{
     padding: 15px;
+    width: 100%;
+    background-color:#ffff;
 }
-
 i.fa-solid.fa-truck{
     color: #39b54a;
 }
-
-
-
-
 p1{
     font-size: 16px;
     line-height: 26px;
@@ -316,6 +426,8 @@ p5{
     font-size: 12px;
     line-height: 20px;
 }
+
+
 
 /*FOOTER*/
 footer{
@@ -351,108 +463,166 @@ i.fa-solid.fa-user-shield{
 }
 
 /*BREAKPOINT DESKTOP*/
-@media(min-width: 769px)and(orientation =landscape){
+@media(min-width: 769px){
 *{box-sizing: border-box;}
-/*HEADER*/
+/*PADRES*/
 .main{
     font-family: 'Roboto', sans-serif;
     width: 100vw;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 header{
-    width: 100vw;
+    display:flex;
 }
 .top{
     text-align: center;
-    height: 8vh;
-}
-.bloque-logo{
-    width: 30vw;
-    height: 100%;
-    display: inline-block;
-}
-.bloque-logo img{
-    width: 100%;
-    height: 100%;
-}
-.bloque-buscador{
-    display: inline-block;
-    width: 60%;
-    height: 100%;
-    block-size: border-box;
-}
-.bloque-buscador input{
-    width: 80%;
-    height: 40%;
-    display: inline-block;
-}
-i.fa-solid.fa-magnifying-glass{
-    display: inline-block;
-    width: 11%;
-    font-size: 23px;
-    background-color: white;
-    border: 1px solid rgba(0,0,0,0.5); 
+    height: 10vh;
 }
 
+
+
+/*HEADERS*/
+.bloque-logo{
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+}
+.bloque-logo img{
+    width: 17vw;
+    height: 17vh;
+    padding-left: 75px;
+    padding-bottom: 45px;
+}
+.bloque-buscador{
+    padding-top: 20px;
+    display: flex;
+    width: 43vw;
+    height: 10vh;
+    block-size: border-box;
+    justify-content: flex-start;
+}
+.bloque-buscador input{
+    width: 100%;
+    height:70%;
+}
+i.fa-solid.fa-magnifying-glass{
+    padding-bottom: 4px;
+    display: inline-block;
+    min-width: 8vh;
+    min-height: 4.7vh;
+    max-width: 8vh;
+    max-height: 4.7vh;
+    width: 5vh;
+    height: 2px;
+    font-size: 145%;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+.credito{
+    padding-top: 2%;
+    display: flex;
+    text-align: center;
+    width: 30vw;
+    height: 30%;
+}
+.container-box{
+    height: 40%;    
+}
+.index-box{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.index-left{
+    color: #050066;
+    text-decoration: underline;
+    width: 50%;
+    height: 70%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+.index-right{
+    color: #050066;
+    text-decoration: underline;
+    width: 50%;
+    height: 70%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+i.fas.fa-bars{
+    visibility: hidden;
+    display: none;
+}
+.banner{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/*ARTICULOS*/
+.tituloVisitas{
+    font-size: 24px;
+    line-height: 40px;
+    height: 40%;
+    padding-left: 35px;
+    background-color:rgb(226, 226, 226);
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content:space-around;
+    align-items: flex-start; 
+}
 .bloque-categorias{
     width:100vw;
     height: 20vh;
 }
-.credito{
-    text-align: center;
-    padding-top: 2%;
-    width: 100%;
-    height: 40%;
+.containerProducts{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
 }
-
-.box-burger{
-    text-align: center;
-}
-i.fas.fa-bars{
-    background-color:#050066;
-    color: white;
-    text-align: center;
-    line-height: 42px;
-    width: 40px;           
-    height: 40px;
-    border: 1px solid rgb(255, 255, 255);
-    font-size: 25px;
-}
-.banner img{
-    width: 100%;
-    display: block;
-}
-
-
-
-.credito{
-    margin-left: 28px;
-    margin-top: 20px;
-}
-.index{
-    color: #050066;
-    text-decoration: underline;
-}
-section strong{
-    font-size: 24px;
-    line-height: 32px;
-}
-
-header section section{
+.containerA{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    height: 35%h;
     background-color:rgb(226, 226, 226);
+    justify-content: space-around;
 }
-header section article{
-    background-color: white;
-}
-.container{
-    flex-wrap:wrap;
+.containerB{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    height: 35%h;
+    background-color:rgb(226, 226, 226);
+    justify-content: space-around;
+    flex-grow: 1;
 }
 .article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 38vh;
     margin-bottom: 10px;
-    box-shadow: 0px 0px 10px rgb(100,100,100);
 }
 .image-article img{
     text-align: center;
-    width: 95%; 
+    width: 100%; 
     height: 95%;    
 }
 .line{
@@ -461,14 +631,9 @@ header section article{
 .detail{
     padding: 15px;
 }
-
 i.fa-solid.fa-truck{
     color: #39b54a;
 }
-
-
-
-
 p1{
     font-size: 16px;
     line-height: 26px;
@@ -493,6 +658,8 @@ p5{
     font-size: 12px;
     line-height: 20px;
 }
+
+
 
 /*FOOTER*/
 footer{

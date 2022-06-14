@@ -13,39 +13,41 @@
             <link rel="stylesheet", href="/css/style.css">
 
         </head>
-        <body style="background-color: #EAC926" class="main">
+        <body style="background-color: #fff159" class="main">
             <header>
                 <div class="top">
                     <div class="bloque-logo">
-                        <img src="../images/logo-mercado-liebre.svg" alt="logo" width="200" height= "200"></img>
-                    </div>
-                    <nav class="bloque-buscador">
-                        <input type="text"><i class="fa-solid fa-magnifying-glass"></i>
-                    </nav><br>
-                </div>
-                <section class="bloque-categorias">
-                        <div class="credito"><i class="fa-solid fa-hand-holding-dollar"></i> Compra en cuotas y sin tarjeta de crédito</div>
-                            <nav>
-                                <ul class="index">
-                                    <li><a hrf="#">Ofertas</a></li>
-                                    <li><a hrf="#">Tiendas Oficiales</a></li>
-                                    <li><a hrf="#">Vender</a></li>
-                                    <li><a hrf="#">Ayuda</a></li>
-                                    <br>
-                                    <li><a hrf="#">Creá tu cuenta <i class="fa-regular fa-address-card"></i></a></li>
-                                    <li><a hrf="#">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
-                                    <li><a hrf="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
-                                </ul>
+                            <img src="../images/logo-mercado-liebre.svg" alt="logo" width="200" height= "200"></img>
+                        </div>
+                            <nav class="bloque-buscador">
+                                <input class="buscador" type="text" placeholder="Buscar productos, marcas y más">                               
+                                <nav>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </nav>
                             </nav>
-                    <div class="box-burger">
-                        <i class="fas fa-bars"></i>
-                    </div><br>
+                        <div class="credito"><i class="fa-solid fa-hand-holding-dollar"></i> Compra en cuotas y sin tarjeta de crédito</div>
+                        <div class="box-burger">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                </div>
+                <section class="container-box">
+                    <nav class="index-box">
+                        <ul style="list-style: none;" class="index-left">
+                            <li><a hrf="#">Ofertas</a></li>
+                            <li><a hrf="#">Tiendas Oficiales</a></li>
+                            <li><a hrf="#">Vender</a></li>
+                            <li><a hrf="#">Ayuda</a></li>
+                        </ul>
+                        <ul style="list-style: none;" class="index-right">
+                            <li><a hrf="#">Creá tu cuenta <i class="fa-regular fa-address-card"></i></a></li>
+                            <li><a hrf="#">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
+                            <li><a hrf="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
+                        </ul>
+                    </nav>
+                    <div class="banner"><img src="../images/img-home-banner.jpg"></div>
                 </section>
-                    <div class="banner"><img src="../images/img-home-banner.jpg" width="95%" height="95%"></div>
-                    <div class="design-articles">
-                <section class="container">
-                    <section><strong>Basado en tu última visita</strong>
-                        <article>
+                <div class="containerProducts"><strong class="tituloVisitas">Basado en tu última visita</strong>
+                <section class="containerA">
                             <div class="article">
                                 <div class="image-article"><img src="../images/img-cafetera-moulinex.jpg" alt="cafetera_moulinex" width="400" height="400"></img><br></div>
                                     <div class="line">
@@ -57,8 +59,6 @@
                                         </div>
                                     </div>
                             </div>
-                        </article>
-                        <article>
                             <div class="article">
                                 <div class="image-article"><img src="../images/img-macbook-pro-2019.jpg" alt="Macbook" width="400" height="400"></img><br></div>
                                     <div class="line">    
@@ -70,8 +70,6 @@
                                         </div>
                                     </div>
                             </div>
-                        </article>
-                        <article>
                             <div class="article">
                                 <div class="image-article"><img src="../images/img-samsung-galaxy-s10.jpg" alt="Samsung_galaxy_S10" width="400" height="400"></img><br></div>
                                     <div class="line">    
@@ -83,8 +81,6 @@
                                         </div>
                                     </div>
                             </div>
-                        </article>
-                        <article>
                             <div class="article">
                                 <div class="image-article"><img src="../images/img-tv-samsung-smart.jpg" alt="Smart_TV" width="400" height="400"></img><br></div>
                                     <div class="line">    
@@ -96,12 +92,9 @@
                                         </div>
                                     </div>
                             </div>
-                        </article>
-                    </section><br>
                 </section>
-                <section>
-                    <section><strong>Seccion de Ofertas</strong>
-                        <article>
+                <strong class="tituloVisitas">Seccion de Ofertas</strong>
+                <section class="containerB">
                             <div class="article">
                                 <div class="image-article"><img src="../images/img-cafetera-moulinex.jpg" alt="cafetera_moulinex" width="400" height="400"></img><br></div>
                                     <div class="line">
@@ -156,8 +149,6 @@
                                         </div>
                                     </div>
                             </div>
-                        </article>
-                    </section><br>
                 </section>
             </header>
         </body></div>
