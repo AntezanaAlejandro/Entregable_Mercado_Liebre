@@ -161,9 +161,24 @@ i.fas.fa-bars{
     padding: 15px;
     width: 100%;
     background-color:#ffff;
+    display: flex;
+    flex-wrap: wrap;
 }
 i.fa-solid.fa-truck{
+    box-sizing: border-box;
     color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 20px;
+    top: -20px;
+    align-items: flex-start;
+    justify-content: end;
 }
 p1{
     font-size: 16px;
@@ -175,11 +190,13 @@ p2{
     font-size: 18px;
     line-height: 26px;
     font-weight: bold;
+    width: 30%;
 }
 p3{
     font-size: 16px;
     line-height: 26px;
     color: #39b54a;
+    width: 70%;
 }
 p4{
     font-size: 16px;
@@ -342,6 +359,8 @@ i.fas.fa-bars{
     width: 100%;
 }
 
+
+
 /*ARTICULOS*/
 .tituloVisitas{
     font-size: 24px;
@@ -398,9 +417,26 @@ i.fas.fa-bars{
     padding: 15px;
     width: 100%;
     background-color:#ffff;
+    display: flex;
+    flex-wrap: wrap;
 }
 i.fa-solid.fa-truck{
+    box-sizing: border-box;
     color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 20px;
+    top: -20px;
+    align-items: flex-start;
+    justify-content: end;
+    color: #39b54a;
+    order: 1;
 }
 p1{
     font-size: 16px;
@@ -412,11 +448,13 @@ p2{
     font-size: 18px;
     line-height: 26px;
     font-weight: bold;
+    width: 30%;
 }
 p3{
     font-size: 16px;
     line-height: 26px;
     color: #39b54a;
+    width: 70%;
 }
 p4{
     font-size: 16px;
@@ -630,9 +668,26 @@ i.fas.fa-bars{
 }
 .detail{
     padding: 15px;
+    width: 100%;
+    background-color:#ffff;
+    display: flex;
+    flex-wrap: wrap;
 }
 i.fa-solid.fa-truck{
+    box-sizing: border-box;
     color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 20px;
+    top: -20px;
+    align-items: flex-start;
+    justify-content: end;
 }
 p1{
     font-size: 16px;
@@ -644,11 +699,13 @@ p2{
     font-size: 18px;
     line-height: 26px;
     font-weight: bold;
+    width: 30%;
 }
 p3{
     font-size: 16px;
     line-height: 26px;
     color: #39b54a;
+    width: 70%;
 }
 p4{
     font-size: 16px;
