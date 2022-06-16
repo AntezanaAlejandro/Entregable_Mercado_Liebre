@@ -52,14 +52,11 @@ header{
     justify-content: end;
 }
 i.fa-solid.fa-magnifying-glass{
-    display: flex;
-    min-width: 25px;
-    max-width: 7vw;
-    height: 78%;
-    flex-grow: 1;
-    font-size: 23px;
-    background-color: white;
-    border: 1px solid rgba(0,0,0,0.5); 
+    color: rgb(77, 77, 77);
+    font-size: 20px;
+    position: relative;
+    right: 28px;
+    top: 6px;
 }
 .bloque-categorias{
     width:100vw;
@@ -180,25 +177,26 @@ i.fa-solid.fa-truck{
     align-items: flex-start;
     justify-content: end;
 }
-p1{
+productOffer{
     font-size: 16px;
     line-height: 26px;
     color: white;
     background-color: blue;
 }
-p2{
+productCost{
     font-size: 18px;
     line-height: 26px;
     font-weight: bold;
-    width: 30%;
+    width: auto;
+    margin-right: 10px;
 }
-p3{
+productPorcent{
     font-size: 16px;
     line-height: 26px;
     color: #39b54a;
-    width: 70%;
+    width: 30%;
 }
-p4{
+productName{
     font-size: 16px;
     line-height: 26px;
 }
@@ -289,8 +287,8 @@ header{
 }
 .buscador{
     display: flex;
-    width: 55vw;
-    height: 40%;
+    width: 58vw;
+    height: 38%;
 }
 .buscador input{
     display: flex;
@@ -298,16 +296,11 @@ header{
     justify-content: end;
 }
 i.fa-solid.fa-magnifying-glass{
-    padding: 2px;
-    display: flex;
-    min-width: 30px;
-    max-width: 7vw;
-    min-height: 28px;
-    max-height: 7vw;
-    flex-grow: 1;
-    font-size: 23px;
-    background-color: white;
-    border: 1px solid rgba(0,0,0,0.5); 
+    color: rgb(77, 77, 77);
+    font-size: 15px;
+    position: relative;
+    right: 22px;
+    top: 4.5px;
 }
 .credito{
     padding-left: 30px;
@@ -437,26 +430,28 @@ i.fa-solid.fa-truck{
     justify-content: end;
     color: #39b54a;
     order: 1;
-}
-p1{
+}productOffer{
     font-size: 16px;
     line-height: 26px;
     color: white;
     background-color: blue;
+    align-items: flex-start;
+    margin-right: 80px;
 }
-p2{
+productCost{
     font-size: 18px;
     line-height: 26px;
     font-weight: bold;
-    width: 30%;
+    width: auto;
+    margin-right: 10px;
 }
-p3{
+productPorcent{
     font-size: 16px;
     line-height: 26px;
     color: #39b54a;
-    width: 70%;
+    width: 30%;
 }
-p4{
+productName{
     font-size: 16px;
     line-height: 26px;
 }
@@ -548,17 +543,11 @@ header{
     height:70%;
 }
 i.fa-solid.fa-magnifying-glass{
-    padding-bottom: 4px;
-    display: inline-block;
-    min-width: 8vh;
-    min-height: 4.7vh;
-    max-width: 8vh;
-    max-height: 4.7vh;
-    width: 5vh;
-    height: 2px;
-    font-size: 145%;
-    background-color: white;
-    border: 1px solid rgba(0,0,0,0.5);
+    color: rgb(77, 77, 77);
+    font-size: 28px;
+    position: relative;
+    right: 45px;
+    top: 8.5px;
 }
 .credito{
     padding-top: 2%;
@@ -623,7 +612,7 @@ i.fas.fa-bars{
     display:flex;
     flex-wrap: wrap;
     flex-grow: 1;
-    justify-content:space-around;
+    justify-content: center;
     align-items: flex-start; 
 }
 .bloque-categorias{
@@ -655,8 +644,7 @@ i.fas.fa-bars{
 }
 .article{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 38vh;
-    margin-bottom: 10px;
+    width: 40vh;
 }
 .image-article img{
     text-align: center;
@@ -688,28 +676,37 @@ i.fa-solid.fa-truck{
     top: -20px;
     align-items: flex-start;
     justify-content: end;
+    position: relative;
 }
-p1{
+productOffer{
     font-size: 16px;
     line-height: 26px;
+    border-radius: 0.2rem;
+    border-width: 3px;
     color: white;
     background-color: blue;
+    align-items: flex-start;
+    width: auto;
+    margin-right: 42%;
 }
-p2{
+productCost{
     font-size: 18px;
     line-height: 26px;
     font-weight: bold;
-    width: 30%;
+    width: auto;
+    margin-right: 10px;
 }
-p3{
+productPorcent{
     font-size: 16px;
     line-height: 26px;
     color: #39b54a;
-    width: 70%;
+    width: 35%;
+    margin-right: 30% ;
 }
-p4{
+productName{
     font-size: 16px;
     line-height: 26px;
+    padding-right: 10px;
 }
 p5{
     font-size: 12px;
