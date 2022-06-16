@@ -17,7 +17,7 @@ header{
 }
 .top{
     text-align: center;
-    height: 26vh;
+    height: 40vh;
     flex-direction: column;
 }
 
@@ -93,11 +93,14 @@ i.fas.fa-bars{
     margin: auto;
 }
 .banner{
-    box-shadow: 0px 0px 10px 1px rgb(100, 100, 100); 
+    box-shadow: 0px 0px 10px 1px rgb(100, 100, 100);
+    height: auto;
+    position: relative;
 }
 .banner img{
-    height: 12vh;
-    width: 100%;
+    max-width: 479px;
+    max-height: 200px;
+    position: relative;
 }
 
 
@@ -130,7 +133,7 @@ i.fas.fa-bars{
     flex-wrap: wrap;
     height: 35%h;
     background-color:rgb(226, 226, 226);
-    justify-content: space-around;
+    justify-content: center;
 }
 .containerB{
     flex-direction: row;
@@ -143,8 +146,8 @@ i.fas.fa-bars{
 }
 .article{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 38vh;
-    margin-bottom: 10px;
+    width: 55vw;
+    margin: 10px;
 }
 .image-article img{
     text-align: center;
@@ -196,7 +199,7 @@ productPorcent{
     font-size: 16px;
     line-height: 26px;
     color: #39b54a;
-    width: 30%;
+    width: 37%;
 }
 productName{
     font-size: 16px;
@@ -397,8 +400,8 @@ i.fas.fa-bars{
 }
 .article{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 38vh;
-    margin-bottom: 10px;
+    width: 38vw;
+    margin: 10px;
 }
 .image-article img{
     text-align: center;
@@ -454,7 +457,7 @@ productPorcent{
     font-size: 16px;
     line-height: 26px;
     color: #39b54a;
-    width: 30%;
+    width: 35%;
 }
 productName{
     font-size: 16px;
@@ -635,7 +638,7 @@ i.fas.fa-bars{
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
-    height: 35%h;
+    height: 35%;
     background-color:rgb(226, 226, 226);
     justify-content: space-around;
 }
@@ -687,12 +690,10 @@ i.fa-solid.fa-truck{
 productOffer{
     font-size: 16px;
     line-height: 26px;
-    border-width: 3px;
     color: white;
     background-color: blue;
     align-items: flex-start;
-    width: auto;
-    margin-right: 42%;
+    margin-right: 36%;
     border-radius: 0.2rem;
     padding: 2px 2px;
 }
