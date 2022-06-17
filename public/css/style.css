@@ -322,7 +322,10 @@ i.fa-solid.fa-magnifying-glass{
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between;;
+}
+ul li a{
+    cursor: pointer
 }
 .index-left{
     color: #050066;
@@ -574,6 +577,9 @@ i.fa-solid.fa-magnifying-glass{
     flex-direction: row;
     justify-content: space-between;
 }
+ul li a{
+    cursor: pointer
+}
 .index-left{
     color: #050066;
     text-decoration: underline;
@@ -755,4 +761,3 @@ i.fa-solid.fa-user-shield{
     border-top: 40px solid rgb(226, 226, 226);
 }
 }
-

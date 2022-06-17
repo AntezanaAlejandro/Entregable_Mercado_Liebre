@@ -1,0 +1,76 @@
+ <!--FORMULARIOS-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+            <title>Mercado Liebre - crea tu cuenta</title>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="https://kit.fontawesome.com/635bf43688.js" crossorigin="anonymous"></script>
+            <link rel="preconnect", href="https://fonts.googleapis.com">
+            <link rel="preconnect", href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <link rel="stylesheet", href="/css/normalize.css">
+            <link rel="stylesheet", href="/css/styleFormularioRegistro.css">
+            <link rel="icon" type="image/png" href="images/iconoLogo2.png"/>
+</head>
+<body style="background-color: #fff159" class="main">
+    <form action="" method="POST">
+        <div>
+            <label for="nombreYApellido">Nombre y apellido:</label>
+            <input type="text" name="nombreYApellido" required>
+            <span class="feedback"></span>
+        </div>
+        <div>
+            <label for="nombreUsuario">Nombre de usuari@:</label>
+            <input type="text" name="nombreUsuario" required>
+            <span class="feedback"></span>
+        </div>
+        <div>
+            <label for="fechaNacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="fechaNacimiento" required>
+        </div>
+        <div>
+            <label for="domicilio">Domicilio:</label>
+            <input type="text" name="domicilio" required>
+        </div>
+        <div>
+            <label for="perfilUsuario">Perfil de usuario:
+            <input type="checkbox" name="perfilUsuario" value="perfil" required checked>
+                Comprador
+            </label>
+            <label for="perfilUsuario">
+            <input type="checkbox" name="perfilUsuario" value="perfil" required>
+                Vendedor
+            </label>
+        </div>
+        <div>
+            <label for="intereses">Categorias de interés:</label>
+            <select name="intereses">
+                <option value="intereses">Electro</option>
+                <option value="intereses">Moda</option>
+                <option value="intereses">Hogar</option>
+                <option value="intereses">Jugueteria</option>
+                <option value="intereses">Vida sana</option>
+            </select>
+        </div>
+        <div>
+            <label for="fotoPerfil">Foto de usuario:</label>
+            <input type="file" name="fotoPerfil" accept=".jpg,.png">
+            <span class="feedback"></span>
+        </div>
+        <div>
+            <label for="contraseña">Contraseña:</label>
+            <input type="text" name="contraseña" min="10" required>
+            <span class="feedback"></span>
+        </div>
+        <div>
+            <label for="confimacionContraseña">Confirmar contraseña:</label>
+            <input type="text" name="confimacionContraseña" min="10" required>
+            <span class="feedback"></span>
+        </div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+</html>
