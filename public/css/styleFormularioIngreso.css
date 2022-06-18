@@ -10,6 +10,81 @@
     height: 100%;
     display:flex;
     flex-wrap: wrap;
+    flex-direction: row;
+}
+.top{
+    width: 100%;
+    height: 60px;
+    background-color: #fff159;
+    box-shadow: 0px 0px 10px rgb(100 100 100);
+    justify-content: center;
+    text-align: center;
+}
+
+
+/*BODY*/
+.body{
+    justify-content: space-between;
+    align-items: center;
+}
+.box-formulario{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(100 100 100);
+    width: 60vw;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    height: 50vh;
+}
+.div-usuario{
+    margin: 10px;
+}
+form div input{
+    border-radius: 5px;
+    border-color: rgba(29, 61, 242, 0.834) ;
+}
+.div-contraseña{
+    margin: 10px;
+}
+.boton-enviar{
+    margin: 10px;
+    width: 100%;
+    height: 18%;
+    flex-wrap: wrap;
+    display: flex;
+}
+button{
+    border-radius: 0.5em;
+    background-color:rgba(29, 61, 242, 0.834);
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.formulario{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: bold;
+}
+
+}
+
+/*BREAKPOINT TABLETS*/
+@media(min-width: 481px){
+    *{box-sizing: border-box;}
+
+/*PADRES*/
+.main{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 .top{
@@ -39,13 +114,43 @@
 
 }
 
-/*BREAKPOINT TABLETS*/
-@media(min-width: 481px){
-    *{box-sizing: border-box;}
-}
-
 /*BREAKPOINT DESKTOP*/
 @media(min-width: 769px){
     *{box-sizing: border-box;}
+
+/*PADRES*/
+.main{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.top{
+    width: 100%;
+    height: 60px;
+    background-color: #fff159;
+    box-shadow: 0px 0px 10px rgb(100 100 100);
+    justify-content: center;
+    text-align: center;
+}
+
+
+/*BODY*/
+.body{
+    justify-content: space-between;
+    align-items: center;
+}
+.box-formulario{
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(100 100 100);
+    width: 60vw;
+}
+.formulario{
+    align-content: center;
+}
+
 }
 
