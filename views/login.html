@@ -15,23 +15,24 @@
     </head>
 <body class="main">
     <div class="top">
-        <img class="imagenLogo" src="../images/iconoLogo2.png" alt="logo" width="65" height= "50"></img>
+        <a title="logo" href="http://localhost:3001"><img class="imagenLogo" src="../images/iconoLogo2.png" alt="logo" width="65" height= "50"></img></a>
     </div>
     <section class="box-formulario">
-        <form class="formulario"action="" method="POST">¡Hola! Ingresá tu usuario y contraseña
+        <form class="formulario" action="" method="POST">
+            <h2 class="titulo">!Bienvenido! Ingresá tu usuario y contraseña</h2>
             <div class="div-usuario">
-                <label for="nombreUsuario">Nombre de usuario</label>
-                <input type="text" name="nombreUsuario" required>
+                <label class="subtitulos" for="nombreUsuario">Nombre de usuario</label>
+                <input class="inputs" type="text" name="nombreUsuario" required>
                 <span class="feedback"></span>
             </div>
             <div class="div-contraseña">
-                <label for="contraseña">Contraseña</label>
-                <input type="text" name="contraseña" required>
+                <label class="subtitulos" for="contraseña">Contraseña</label>
+                <input class="inputs" type="text" name="contraseña" required>
                 <span class="feedback"></span>
             </div>
-            <div class="boton-enviar">
-            <button type="submit">Enviar</button>
-            </div>
+            <a class="boton-enviar" href="http://localhost:3001">
+                <button type="submit">Enviar</button>
+            </a>
         </form>
     </section>   
 </body>
