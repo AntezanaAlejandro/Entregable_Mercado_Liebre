@@ -10,28 +10,30 @@
                 <link rel="preconnect", href="https://fonts.gstatic.com" crossorigin>
                 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
                 <link rel="stylesheet", href="/css/normalize.css">
-                <link rel="stylesheet", href="/css/styleFormularioIngreso.css">
+                <link rel="stylesheet", href="/css/login.css">
+                <link rel="icon" type="image/png" href="images/iconoLogo1.png"/>
                 <link rel="icon" type="image/png" href="images/iconoLogo2.png"/>
     </head>
 <body class="main">
     <div class="top">
-        <a title="logo" href="http://localhost:3001"><img class="imagenLogo" src="../images/iconoLogo2.png" alt="logo" width="65" height= "50"></img></a>
+        <a class="iconoYNombre" title="logo1" href="http://localhost:3001"><img class="imagenLogo1" src="../images/logo-mercado-liebre.png" alt="logo" width="150" height= "40"></img></a>
+        <a class="iconoSolo" title="logo2" href="http://localhost:3001"><img class="imagenLogo2" src="../images/iconoLogo2.png" alt="logo" width="65" height= "50"></img></a>
     </div>
     <section class="box-formulario">
         <form class="formulario" action="" method="POST">
             <h2 class="titulo">!Bienvenido! Ingresá tu usuario y contraseña</h2>
             <div class="div-usuario">
-                <label class="subtitulos" for="nombreUsuario">Nombre de usuario</label>
-                <input class="inputs" type="text" name="nombreUsuario" required>
+                <label class="subtitulos" for="nombreUsuario"></label>
+                <input class="inputs" type="text" name="nombreUsuario" placeholder=" Nombre de Usuario" required>
                 <span class="feedback"></span>
             </div>
             <div class="div-contraseña">
-                <label class="subtitulos" for="contraseña">Contraseña</label>
-                <input class="inputs" type="text" name="contraseña" required>
+                <label class="subtitulos" for="contraseña"></label>
+                <input class="inputs" type="text" name="contraseña" placeholder=" Contraseña" required>
                 <span class="feedback"></span>
             </div>
-            <a class="boton-enviar" href="http://localhost:3001">
-                <button type="submit">Enviar</button>
+            <a class="boton-enviar">
+                <button type="submit" href="http://localhost:3001">Enviar</button>
             </a>
         </form>
     </section>   

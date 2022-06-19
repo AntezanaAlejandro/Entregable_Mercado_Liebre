@@ -17,8 +17,21 @@
     height: 60px;
     background-color: #fff159;
     box-shadow: 0px 0px 10px rgb(100 100 100);
+    display: flex;
+    flex-wrap: wrap;
+}
+.iconoSolo{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
     justify-content: center;
-    text-align: center;
+    width: 99%;
+    margin-top: 4px; 
+}
+.iconoYNombre{
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
 }
 
 
@@ -33,18 +46,21 @@
     background-color: rgb(226, 226, 226);
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgb(100 100 100);
-    width: 60vw;
+    width: 70vw;
     justify-content: center;
-    margin-top: 80px;
-    margin-left: 20%;
-    height: 50vh;
+    margin-top: 50px;
+    margin-left: 15%;
+    height: 30vh;
 }
 .inputs{
     margin-left:10px;
-    height: 30px;
+    height: 50px;
     border-radius: 5px;
-    border-color: rgba(29, 61, 242, 0.834);
     width: 90%;
+    border-color: white;
+}
+.inputs:hover{
+    border-color: rgba(29, 61, 242, 0.834);
 }
 .titulo{
     margin: 20px 10px;
@@ -79,12 +95,16 @@
 }
 button{
     border-radius: 0.5em;
-    background-color:rgba(29, 61, 242, 0.834);
+    background-color:rgba(29, 61, 242, 0.7);
+    border: hidden;
     color: white;
     justify-content: space-between;
     width: 100%;
     height: 60px;
-
+}
+button:hover{
+    background-color: rgba(0, 29, 194, 0.834);
+    cursor: pointer;
 }
 .formulario{
     margin: 10px;
@@ -117,6 +137,19 @@ button{
     justify-content: center;
     text-align: center;
 }
+.iconoSolo{
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+}
+.iconoYNombre{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: center;
+    width: 99%;
+    margin-top: 10px;
+}
 
 
 /*BODY*/
@@ -129,18 +162,21 @@ button{
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgb(100 100 100);
     width: 70vw;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 15%;
-    height: 38vh;
-    min-height: 360px;
-    max-height: 360px;
+    height: 40vh;
+    min-height: 380px;
+    max-height: 380px;
 }
 .inputs{
     margin-left:10px;
-    height: 30px;
+    height: 50px;
     border-radius: 5px;
-    border-color: rgba(29, 61, 242, 0.834);
     width: 80%;
+    border-color: white;
+}
+.inputs:hover{
+    border-color: rgba(29, 61, 242, 0.834);
 }
 .titulo{
     margin: 20px 10px;
@@ -175,11 +211,15 @@ button{
 button{
     border-radius: 0.5em;
     background-color:rgba(29, 61, 242, 0.834);
+    border: hidden;
     color: white;
     justify-content: space-between;
     width: 95%;
     height: 70px;
-
+}
+button:hover{
+    background-color: rgba(0, 29, 194, 0.834);
+    cursor: pointer;
 }
 .formulario{
     display:block;
@@ -192,7 +232,6 @@ button{
 
 
 }
-
 
 /*BREAKPOINT DESKTOP*/
 @media(min-width: 769px){
@@ -216,6 +255,19 @@ button{
     justify-content: center;
     text-align: center;
 }
+.iconoSolo{
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+}
+.iconoYNombre{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: center;
+    width: 99%;
+    margin-top: 10px;
+}
 
 
 /*BODY*/
@@ -228,7 +280,7 @@ button{
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgb(100 100 100);
     width: 50vw;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 26%;
     height: 40vh;
     min-height: 440px;
@@ -236,10 +288,13 @@ button{
 }
 .inputs{
     margin-left:10px;
-    height: 30px;
+    height: 50px;
     border-radius: 5px;
-    border-color: rgba(29, 61, 242, 0.834);
     width: 80%;
+    border-color: white;
+}
+.inputs:hover{
+    border-color: rgba(29, 61, 242, 0.834);
 }
 .titulo{
     margin: 20px 10px;
@@ -274,12 +329,17 @@ button{
 button{
     border-radius: 0.5em;
     background-color:rgba(29, 61, 242, 0.834);
+    border: hidden;
     color: white;
     justify-content: space-between;
     margin-top: 30px;
     margin-left: 50px;
     width: 80%;
     height: 70px;
+}
+button:hover{
+    background-color: rgba(0, 29, 194, 0.834);
+    cursor: pointer;
 }
 .formulario{
     display:block;

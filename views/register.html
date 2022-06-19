@@ -11,33 +11,34 @@
             <link rel="preconnect", href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
             <link rel="stylesheet", href="/css/normalize.css">
-            <link rel="stylesheet", href="/css/styleFormularioRegistro.css">
+            <link rel="stylesheet", href="/css/register.css">
             <link rel="icon" type="image/png" href="images/iconoLogo2.png"/>
 </head>
 <body class="main">
     <div class="top">
-        <a title="logo" href="http://localhost:3001"><img class="imagenLogo" src="../images/iconoLogo2.png" alt="logo" width="65" height= "50"></img></a>
+        <a class="iconoYNombre" title="logo1" href="http://localhost:3001"><img class="imagenLogo1" src="../images/logo-mercado-liebre.png" alt="logo" width="150" height= "40"></img></a>
+        <a class="iconoSolo" title="logo2" href="http://localhost:3001"><img class="imagenLogo2" src="../images/iconoLogo2.png" alt="logo" width="65" height= "50"></img></a>
     </div>
     <section class="box-formulario">
         <form class="formulario" action="" method="POST">
             <h2 class="titulo">¡Bienvenido! Ingresa tus datos</h2>
             <div class="div-nombreApellido">
-                <label class="subtitulos" for="nombreYApellido">Nombre y apellido:</label>
-                <input class="inputs" type="text" name="nombreYApellido" required>
+                <label class="subtitulos" for="nombreYApellido"></label>
+                <input class="inputs" type="text" name="nombreYApellido" placeholder=" Nombre y apellido"required>
                 <span class="feedback"></span>
             </div>
             <div class="div-usuario">
-                <label class="subtitulos" for="nombreUsuario">Nombre de usuari@:</label>
-                <input class="inputs"type="text" name="nombreUsuario" required>
+                <label class="subtitulos" for="nombreUsuario"></label>
+                <input class="inputs"type="text" name="nombreUsuario" placeholder=" Nombre de usuari@" required>
                 <span class="feedback"></span>
             </div>
             <div class="div-fechaNacimiento">
-                <label class="subtitulos" for="fechaNacimiento">Fecha de nacimiento:</label>
+                <label class="subtitulos" for="fechaNacimiento">Fecha de nacimiento</label>
                 <input class="inputs" type="date" name="fechaNacimiento" required>
             </div>
             <div class="div-domicilio">
-                <label class="subtitulos" for="domicilio">Domicilio:</label>
-                <input class="inputs" type="text" name="domicilio" required>
+                <label class="subtitulos" for="domicilio"></label>
+                <input class="inputs" type="text" name="domicilio" placeholder=" Domicilio" required>
             </div>
             <div class="div-perfilUsuario">
                 <label class="subtitulos" for="perfilUsuario">Perfil de usuario:
@@ -65,17 +66,17 @@
                 <span class="feedback"></span>
             </div>
             <div class="div-contraseña">
-                <label class="subtitulos" for="contraseña">Contraseña:</label>
-                <input class="inputs" type="text" name="contraseña" min="10" required>
+                <label class="subtitulos" for="contraseña"></label>
+                <input class="inputs" type="text" name="contraseña" min="10" placeholder=" Contraseña" required>
                 <span class="feedback"></span>
             </div>
             <div class="div-confirmacionContraseña">
-                <label class="subtitulos" for="confimacionContraseña">Confirmar contraseña:</label>
-                <input  class="inputs" type="text" name="confimacionContraseña" min="10" required>
+                <label class="subtitulos" for="confimacionContraseña"></label>
+                <input  class="inputs" type="text" name="confimacionContraseña" min="10" placeholder="Confirmar contraseña" required>
                 <span class="feedback"></span>
             </div>
-            <a class="botones" href="http://localhost:3001">
-            <button type="submit">Enviar</button>
+            <a class="botones">
+            <button type="submit" href="http://localhost:3001">Enviar</button>
             <button type="reset">Borrar</button>
             </a>
         </form>
