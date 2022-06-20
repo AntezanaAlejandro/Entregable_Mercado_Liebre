@@ -1,484 +1,485 @@
 /*BREAKPOINT SMARTPHONE*/
-@media(max-width: 480px){
 *{box-sizing: border-box;}
 /*PADRES*/
 .main{
+    display:flex;
     font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+    flex-direction: column;
     width: 100%;
-    display:flex;
+}
+.top1{
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px rgb(100, 100, 100);
+    background-color: #fff159;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-}
-header{
-    width: 100vw;
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-.top{
+    height: 32vh;
+    padding: 15px 0px 0px 0px;
     text-align: center;
-    height: 40vh;
-    flex-direction: column;
-}
-
-
-
-/*HEADERS*/
-.bloque-logo{
-    padding-top: 2%;
-    width: 50vw;
-    height: 40%;
-    display: inline-block;
-}
-.bloque-logo img{
     width: 100%;
-    height: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
 }
-.bloque-buscador{
-    display: flex;
-    width: 100%;
-    height: 16%;
-    block-size: border-box;
-    justify-content: center;
-}
-.buscador{
-    display: flex;
-    width: 55vw;
-    height: 80%;
-}
-.buscador input{
+
+
+/*NAV-BAR1*/
+.logo{
+    border: 5px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
+    width: 60vw;
+}
+.logoSolo{
+    display: none;
+}
+.inputs{
+    border: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(100, 100, 100);
+    margin: 10px;
+    height: 40px;
+    align-content: center;
+    width: 60vw;
+}
+.lupa-box{
+    height: 1px;
 }
 i.fa-solid.fa-magnifying-glass{
+    border-left: 1px solid rgb(198, 198, 198);
+    bottom: 5.1vh;
     color: rgb(77, 77, 77);
     font-size: 20px;
+    padding-left: 10px;
     position: relative;
-    right: 28px;
-    top: 6px;
+    left: 24vw;
+    width: fit-content;
 }
-.bloque-categorias{
-    width:100vw;
-    height: 20vh;
+.mano-box{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
 }
-.index-left{
-    visibility: hidden;
-    display: none;
+i.fa-solid.fa-hand-holding-dollar{
+    position: relative;
 }
-.index-right{
-    visibility: hidden;
-    display: none;
+.cuotas{
+    margin: 0%;
 }
-.credito{
-    text-align: center;
-    width: 100%;
-    height: 15%;
-}
-.box-burger{
-    height: 20%;
+.bars-box{
+    height: 6vh;
+    margin: 10px 0px 20px 0px;
+    width:50px;
 }
 i.fas.fa-bars{
     background-color:#03264c;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgb(100, 100, 100);
     color:  #ffff;
     display: block;
-    max-width: 50px;           
-    padding: 15px 0;
-    border-radius: 8px;
-    text-align: center;
     font-size: 20px;
-    margin: auto;
+    height: fit-content;
+    max-width: 50px; 
+    margin: auto;          
+    padding: 15px 0;
+    text-align: center;
+}
+
+
+/*NAVBAR2*/
+.top2{
+    display: none;
+}
+.index-box{
+    display: none;
+}
+.index-left{
+    display: none;
+}
+.index-right{
+    display: none;
 }
 .banner{
     box-shadow: 0px 0px 10px 1px rgb(100, 100, 100);
-    height: auto;
+    height: 100%;
     position: relative;
+    width: 100%;
+    z-index: 8;
 }
-.banner img{
-    max-width: 479px;
-    max-height: 200px;
-    position: relative;
-}
-
 
 
 /*ARTICULOS*/
-.tituloVisitas{
-    font-size: 24px;
-    line-height: 40px;
-    height: 40%;
-    padding-left: 35px;
-    background-color:rgb(226, 226, 226);
+.titulos{
     text-align: center;
-    padding-right: 2rem;
-    padding-top: 1rem;
+    font-size: 4vw;
+    position: relative;
+    z-index: 5;
 }
-.container{
-    display: flex;
-    flex-wrap:wrap;
-}
-.bloque-categorias{
-    width:100vw;
-    height: 20vh;
-}
-.containerProducts{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
+.articulos{
+    background-color:rgb(226, 226, 226);
 }
 .containerA{
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    height: 35%h;
     background-color:rgb(226, 226, 226);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 35%;
     justify-content: center;
 }
 .containerB{
-    flex-direction: row;
+    background-color:rgb(226, 226, 226);
     display: flex;
+    flex-direction: row;
+    flex-grow: 1;
     flex-wrap: wrap;
     height: 35%h;
-    background-color:rgb(226, 226, 226);
-    justify-content: space-around;
-    flex-grow: 1;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 .article{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 55vw;
+    width: 80vw;
     margin: 10px;
     border-radius: 0.2em;
 }
 .image-article img{
+    border-radius: 0.2em;
     text-align: center;
-    width: 100%; 
-    height: 100%; 
-    border-radius: 0.2em;   
+    height: 100%;  
+    width: 100%;   
 }
 .line{
     border-top: 1px solid #ebebeb;
 }
 .detail{
-    padding: 15px;
-    width: 100%;
     background-color:#ffff;
     display: flex;
     flex-wrap: wrap;
+    height: 100%;
+    padding: 15px;
+    width: 100%;
 }
 i.fa-solid.fa-truck{
-    color: #39b54a;
-    font-size: 20px;
-    padding: 5px;
-    width: 35px;
-    height: 35px;
     border: 1.5px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
+    bottom: 35px;
+    color: #39b54a;
+    font-size: 20px;
+    height: 35px;
     justify-content: flex-end;
+    padding: 5px;
     position: relative;
     right: -45%;
-    bottom: 35px;
-}
-productOffer{
-    justify-content: center;
-    font-size: 12px;
-    color: white;
-    background-color: blue;
-    border-radius: 0.2rem;
-    padding: 2px 2px;
-    width: auto;
-    height: 27px;
-    position: relative;
-    right: 50%;
-    bottom: 30px;
+    width: 35px;
 }
 productCost{
+    font-weight: bold;
     font-size: 18px;
     line-height: 26px;
-    font-weight: bold;
     width: 35%;
 }
 productPorcent{
+    color: #39b54a;
     font-size: 16px;
     line-height: 26px;
-    color: #39b54a;
+    margin-right: 30%;
     width: 95%;
-    margin-right: 30% ;
 }
 productName{
     font-size: 16px;
     line-height: 26px;
-    padding-right: 10px;
     width: 85%;
 }
-p5{
-    font-size: 12px;
-    line-height: 20px;
-}
-
 
 
 /*FOOTER*/
-footer{
+.footer-box{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
-    background-color: white;
-}
-.design-footer{
-    width:100vw;
-    min-width: 480px;
-    max-width: 480px;
-    background-color: white;
-    border-left: 35px solid white;
-    border-right: 35px solid white;
 }
 i.fa-solid.fa-credit-card{
-    font-size: 40px;
     color: blue;
+    font-size: 40px;
+    margin: 15px 0px 0px 0px;
+    width: 100%;
 }
 i.fa-solid.fa-gift{
-    font-size: 40px;
     color: blue;
+    font-size: 40px;
+    width: 100%;
 }
 i.fa-solid.fa-user-shield{
     font-size: 40px;
     color: blue;
+    width: 100%;
 }
-.design-articles{
-    width:100vw;
-    background-color:rgb(226, 226, 226);
-    border-left: 35px solid rgb(226, 226, 226);
-    border-right: 35px solid rgb(226, 226, 226);
-    border-bottom: 10px solid rgb(226, 226, 226);
-    border-top: 40px solid rgb(226, 226, 226);
+.enunciado-box{
+    display: flex;
+    flex-wrap: wrap
+
 }
+.subtitulosFooter{
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+
 }
+p5{
+    font-size: 12px;
+    text-align: center;
+    margin: 5px 40px 10px 40px;
+    line-height: 20px;
+}
+
 
 /*BREAKPOINT TABLETS*/
 @media(min-width: 481px){
 *{box-sizing: border-box;}
+
 /*PADRES*/
 .main{
+    display:flex;
     font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+    flex-direction: column;
     width: 100%;
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
 }
-header{
-    width: 100vw;
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-.top{
-    max-height: 50vh;
-    display:flex;
+.top1{
+    align-items: center;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-}
-
-
-
-/*HEADERS*/
-.bloque-logo{
-    padding: 2% 2% 2% 4%;
-    width: 30vw;
-    height: 30%;
-    display: inline-block;
-}
-.bloque-logo img{
+    height: 9vh;
+    padding: 0.7vh 0px 0px 0px;
+    position: sticky;
+    top: 0%;
+    text-align: center;
     width: 100%;
-    height: 100%;
+    z-index: 10;
 }
-.bloque-buscador{
-    padding-top: 38px;
-    display: flex;
-    width: 40vw;
-    height: 30%;
-    block-size: border-box;
-    justify-content: flex-start;
+
+
+/*NAV-BAR1*/
+.logo{
+    display: none;
 }
-.buscador{
-    display: flex;
-    width: 58vw;
-    height: 38%;
-}
-.buscador input{
+.logoSolo{
+    border: 5px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
+    justify-content: center;
+    margin: 0px 0px 40px 10px;
+    width: 15vw;
+}
+.inputs{
+    border: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(100, 100, 100);
+    margin: 0px 10px 40px 10px;
+    height: 40px;
+    align-content: center;
+    width: 47vw;
+}
+.lupa-box{
+    height: 1px;
 }
 i.fa-solid.fa-magnifying-glass{
+    color: rgb(107, 107, 107);
+    font-size: 18px;
+    position: absolute;
+    left: 58%;
+    top: 2.5vh;
+    width: fit-content;
+    border-left: 1px solid rgb(198, 198, 198);
+    padding-left: 13px;
+}
+i.fa-solid.fa-magnifying-glass:hover{
     color: rgb(77, 77, 77);
-    font-size: 15px;
-    position: relative;
-    right: 22px;
-    top: 4.5px;
+    font-size: 20px;
+    position: absolute;
+    left: 58%;
+    top: 2.5vh;
+    width: fit-content;
+    border-left: 1px solid rgb(198, 198, 198);
+    padding-left: 13px;
+    transition: all 536ms;
 }
-.credito{
-    padding-left: 30px;
+.mano-box{
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
-    padding-top: 4%;
-    width: 25vw;
-    height: 30%;
+    height: 80%;
+    margin: 0px 0px 20px 5px;
+    width: 30%;
 }
-.container-box{
-    height: 60%;
+i.fa-solid.fa-hand-holding-dollar{
+    width: 20%;
+}
+.cuotas{
+    height: fit-content;
+    margin: 0px 0px 0px 0px;
+    width: 80%;
+
+}
+.bars-box{
+    display: none;
+}
+i.fas.fa-bars{
+    display: none;
+}
+
+
+/*NAVBAR2*/
+.linea{
+    height: 0.5px;
+    background-color: gray;
+    width: 100%;
+}
+.top2{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 12vh;
+    text-align: center;
+    width: 100%;
 }
 .index-box{
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;;
+    height: 80%;
+    justify-content: space-between;
+    width: 100%;
 }
-ul li a{
-    cursor: pointer
+.listado{
+    margin: 2px 5px 2px 5px;
+    width: 10vw;    
 }
 .index-left{
     color: #050066;
-    text-decoration: underline;
-    width: 50%;
-    height: 70%;
     display:flex;
     flex-wrap: wrap;
+    height: 20%;
     justify-content: flex-start;
     justify-content: space-around;
+    padding-left: 2%;
+    text-decoration: underline;
+    width: 50%;
 }
 .index-right{
     color: #050066;
-    text-decoration: underline;
-    width: 50%;
-    height: 70%;
     display:flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    height: 30%;
+    justify-content: flex-end;
     justify-content: space-around;
+    padding-left: 2%;
+    text-decoration: underline;
+    width: 50%;
 }
-i.fas.fa-bars{
-    visibility: hidden;
-    display: none;
+.point{
+    width: 1vw;
 }
 .banner{
-    height: 100%;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100); 
-}
-.banner img{
-    height: 20vh;
+    box-shadow: 0px 0px 10px 1px rgb(100, 100, 100);
+    height: 60%;
     width: 100%;
+    z-index: 8;
 }
-
 
 
 /*ARTICULOS*/
-.tituloVisitas{
-    font-size: 24px;
-    line-height: 40px;
-    height: 40%;
-    padding-left: 35px;
+.titulos{
+    text-align: center;
+    font-size: 4vw;
+}
+.articulos{
     background-color:rgb(226, 226, 226);
-}
-.container{
-    display: flex;
-    flex-wrap:wrap;
-}
-.bloque-categorias{
-    width:100vw;
-    height: 20vh;
-}
-.containerProducts{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
 }
 .containerA{
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    height: 35%h;
     background-color:rgb(226, 226, 226);
-    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 35%;
+    justify-content: center;
 }
 .containerB{
-    flex-direction: row;
+    background-color:rgb(226, 226, 226);
     display: flex;
+    flex-direction: row;
+    flex-grow: 1;
     flex-wrap: wrap;
     height: 35%h;
-    background-color:rgb(226, 226, 226);
-    justify-content: space-around;
-    flex-grow: 1;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 .article{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 38vw;
+    width: 45vw;
     margin: 10px;
     border-radius: 0.2em;
 }
+.article:hover{
+    box-shadow: 0px 0px 20px rgb(100, 100, 100);
+    border-radius: 0.3em;
+    cursor: pointer;
+    margin: 0px 10px 2.9% 10px;
+    transition: all 436ms;
+    width: 45vw;
+}
 .image-article img{
+    border-radius: 0.2em;
     text-align: center;
-    width: 100%; 
     height: 100%;  
-    border-radius: 0.2em;  
+    width: 100%;   
 }
 .line{
     border-top: 1px solid #ebebeb;
 }
 .detail{
-    padding: 15px;
-    width: 100%;
     background-color:#ffff;
     display: flex;
     flex-wrap: wrap;
+    padding: 15px;
+    width: 100%;
+}
+.detail:hover{
 }
 i.fa-solid.fa-truck{
-    color: #39b54a;
-    font-size: 20px;
-    padding: 5px;
-    width: 35px;
-    height: 35px;
     border: 1.5px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
-    justify-content: flex-end;
-    position: relative;
-    right: -75%;
     bottom: 35px;
-}
-productOffer{
-    justify-content: center;
-    font-size: 12px;
-    color: white;
-    background-color: blue;
-    border-radius: 0.2rem;
-    padding: 2px 2px;
-    width: auto;
-    height: 27px;
+    color: #39b54a;
+    font-size: 20px;
+    height: 35px;
+    justify-content: flex-end;
+    padding: 5px;
     position: relative;
-    right: 25%;
-    bottom: 30px;
+    right: -45%;
+    width: 35px;
 }
 productCost{
+    font-weight: bold;
     font-size: 18px;
     line-height: 26px;
-    font-weight: bold;
-    width: 5%;
+    width: 35%;
 }
 productPorcent{
+    color: #39b54a;
     font-size: 16px;
     line-height: 26px;
-    color: #39b54a;
+    margin-right: 30%;
     width: 95%;
-    margin-right: 30% ;
 }
 productName{
     font-size: 16px;
     line-height: 26px;
-    padding-right: 10px;
     width: 85%;
 }
 p5{
@@ -487,256 +488,267 @@ p5{
 }
 
 
-
 /*FOOTER*/
-footer{
+.footer-box{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
-    background-color: white;
-}
-.design-footer{
-    width:100vw;
-    background-color: white;
-    border-left: 35px solid white;
-    border-right: 35px solid white;
 }
 i.fa-solid.fa-credit-card{
-    font-size: 40px;
     color: blue;
+    font-size: 40px;
+    width: 100%;
 }
 i.fa-solid.fa-gift{
-    font-size: 40px;
     color: blue;
+    font-size: 40px;
+    width: 100%;
 }
 i.fa-solid.fa-user-shield{
-    font-size: 40px;
     color: blue;
+    font-size: 40px;
+    width: 100%;
 }
-.design-articles{
-    width:100vw;
-    background-color:rgb(226, 226, 226);
-    border-left: 35px solid rgb(226, 226, 226);
-    border-right: 35px solid rgb(226, 226, 226);
-    border-bottom: 10px solid rgb(226, 226, 226);
-    border-top: 40px solid rgb(226, 226, 226);
+.enunciado-box{
+    display: flex;
+    flex-wrap: wrap
+
 }
+.subtitulosFooter{
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+
+}
+p5{
+    font-size: 12px;
+    text-align: center;
+    margin: 5px 40px 10px 40px;
+    line-height: 20px;
+}
+
 }
 
 /*BREAKPOINT DESKTOP*/
 @media(min-width: 769px){
 *{box-sizing: border-box;}
+
 /*PADRES*/
 .main{
-    font-family: 'Roboto', sans-serif;
-    width: 100vw;
     display:flex;
+    font-family: 'Roboto', sans-serif;
     flex-wrap: wrap;
     flex-direction: column;
+    width: 100%;
 }
-header{
-    display:flex;
-}
-.top{
-    text-align: center;
-    height: 10vh;
-}
-
-
-
-/*HEADERS*/
-.bloque-logo{
-    width: 20vw;
-    height: 5vh;
+.top1{
+    align-items: center;
     display: flex;
-    flex-wrap: wrap;
-    padding: 0%;
-}
-.bloque-logo img{
-    width: 17vw;
-    height: 17vh;
-    padding-left: 75px;
-    padding-bottom: 45px;
-}
-.inputs{
-    margin: 10px;
-    height: 40px;
-    border-radius: 5px;
-    width: 45%;
-    border: hidden;
-    box-shadow: 0px 0px 5px rgb(100, 100, 100);
-}
-i.fa-solid.fa-magnifying-glass{
-    color: rgb(77, 77, 77);
-    font-size: 26px;
-    position: absolute;
-    right: 34vw;
-    top: 16px;
-    padding-left: 10px;
-    border-left: 1px solid rgb(198, 198, 198);
-    
-}
-.credito{
-    padding-top: 2%;
-    display: flex;
-    text-align: center;
-    width: 30vw;
-    height: 30%;
-}
-.container-box{
-    height: 40%;    
-}
-.index-box{
-    display:flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    padding: 0.7vh 0px 0px 0px;
+    position: sticky;
+    top: 0%;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
 }
-ul li a{
-    cursor: pointer
+
+
+/*NAV-BAR1*/
+.logo{
+    display: none;
+}
+.logoSolo{
+    border: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 20px 30px 30px;
+    width: 5%;
+}
+.inputs{
+    border: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(100, 100, 100);
+    margin: 0px 10px 30px 10px;
+    height: 40px;
+    align-content: center;
+    width: 59vw;
+}
+.lupa-box{
+    height: 1px;
+}
+i.fa-solid.fa-magnifying-glass{
+    border-left: 1px solid rgb(198, 198, 198);
+    color: rgb(77, 77, 77);
+    font-size: 20px;
+    position: absolute;
+    left: 65%;
+    top: 3vh;
+    width: fit-content;
+    padding-left: 15px;
+}
+.mano-box{
+    display: flex;
+    text-align: center;
+    height: 100%;
+    margin: 15px 0px 0px 5px;
+    width: 25vw;
+}
+i.fa-solid.fa-hand-holding-dollar{
+    position: relative;
+}
+.bars-box{
+    display: none;
+}
+i.fas.fa-bars{
+    display: none;
+}
+
+
+/*NAVBAR2*/
+.top2{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 10vh;
+    text-align: center;
+    width: 100%;
+}
+.index-box{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-between;
+    width: 100%;
+}
+.listado{
+    margin: 2px 5px 2px 5px;
+    width: 10vw;    
 }
 .index-left{
     color: #050066;
-    text-decoration: underline;
-    width: 50%;
-    height: 70%;
     display:flex;
     flex-wrap: wrap;
+    height: 60%;
     justify-content: flex-start;
     justify-content: space-around;
+    padding-left: 2%;
+    text-decoration: underline;
+    width: 50%;
 }
 .index-right{
     color: #050066;
-    text-decoration: underline;
-    width: 50%;
-    height: 70%;
     display:flex;
     flex-wrap: wrap;
-    flex-wrap: wrap;
+    height: 60%;
     justify-content: flex-end;
     justify-content: space-around;
-}
-i.fas.fa-bars{
-    visibility: hidden;
-    display: none;
+    padding-left: 2%;
+    text-decoration: underline;
+    width: 50%;
 }
 .banner{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100); 
-}
-.banner img{
-    height: 100%;
+    box-shadow: 0px 0px 10px 1px rgb(100, 100, 100);
+    height: 70%;
     width: 100%;
+    z-index: 8;
 }
-
 
 
 /*ARTICULOS*/
-.tituloVisitas{
-    font-size: 24px;
-    line-height: 40px;
-    height: 40%;
-    padding-left: 35px;
-    padding-top: 10px;
+.titulos{
+    text-align: center;
+    font-size: 3.5vw;
+}
+.articulos{
     background-color:rgb(226, 226, 226);
-}
-.container{
-    display:flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    justify-content: center;
-    align-items: flex-start;
-}
-.bloque-categorias{
-    width:100vw;
-    height: 20vh;
-}
-.containerProducts{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
 }
 .containerA{
-    flex-direction: row;
+    background-color:rgb(226, 226, 226);
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     height: 35%;
-    background-color:rgb(226, 226, 226);
-    justify-content: space-around;
+    justify-content: center;
 }
 .containerB{
-    flex-direction: row;
+    background-color:rgb(226, 226, 226);
     display: flex;
+    flex-direction: row;
+    flex-grow: 1;
     flex-wrap: wrap;
     height: 35%h;
-    background-color:rgb(226, 226, 226);
-    justify-content: space-around;
-    flex-grow: 1;
-    padding-bottom: 20px;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 .article{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 40vh;
+    width: 22vw;
+    margin: 10px;
     border-radius: 0.2em;
 }
+.article:hover{
+    box-shadow: 0px 0px 20px rgb(100, 100, 100);
+    border-radius: 0.3em;
+    cursor: pointer;
+    margin: 0px 10px 1.5% 10px;
+    transition: all 436ms;
+    width: 22vw;
+}
 .image-article img{
+    border-radius: 0.2em;
     text-align: center;
-    width: 100%; 
-    height: 95%;
-    border-radius: 0.2em;    
+    height: 100%;  
+    width: 100%;   
 }
 .line{
     border-top: 1px solid #ebebeb;
 }
 .detail{
-    padding: 15px;
-    width: 100%;
     background-color:#ffff;
     display: flex;
     flex-wrap: wrap;
+    padding: 15px;
+    width: 100%;
 }
 i.fa-solid.fa-truck{
-    color: #39b54a;
-    font-size: 20px;
-    padding: 5px;
-    width: 35px;
-    height: 35px;
     border: 1.5px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
-    justify-content: flex-end;
-    position: relative;
-    right: -78%;
     bottom: 35px;
-}
-productOffer{
-    justify-content: center;
-    font-size: 12px;
-    color: white;
-    background-color: blue;
-    border-radius: 0.2rem;
-    padding: 2px 2px;
-    width: auto;
-    height: 27px;
+    color: #39b54a;
+    font-size: 20px;
+    height: 35px;
+    justify-content: flex-end;
+    padding: 5px;
     position: relative;
-    right: 13%;
-    bottom: 34px;
+    right: -45%;
+    width: 35px;
 }
 productCost{
-    font-size: 18px;
-    line-height: 26px;
     font-weight: bold;
-    width: 5%;
+    font-size: 18px;
+    height: fit-content;
+    line-height: 26px;
+    width: 35%;
 }
 productPorcent{
+    color: #39b54a;
     font-size: 16px;
     line-height: 26px;
-    color: #39b54a;
+    margin-right: 30%;
     width: 95%;
-    margin-right: 30% ;
 }
 productName{
     font-size: 16px;
     line-height: 26px;
-    padding-right: 10px;
+    height: fit-content;
     width: 85%;
 }
 p5{
@@ -745,36 +757,49 @@ p5{
 }
 
 
-
 /*FOOTER*/
-footer{
+.footer-box{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 30vh;
+    justify-content: space-around;
     text-align: center;
-    background-color: white;
-}
-.design-footer{
-    width:100vw;
-    background-color: white;
-    border-left: 35px solid white;
-    border-right: 35px solid white;
 }
 i.fa-solid.fa-credit-card{
     font-size: 40px;
     color: blue;
+    width: 100%;
+    margin: 30px 0px 0px 0px;
 }
 i.fa-solid.fa-gift{
     font-size: 40px;
     color: blue;
+    width: 100%;
+    margin: 30px 0px 0px 0px;
 }
 i.fa-solid.fa-user-shield{
     font-size: 40px;
     color: blue;
+    width: 100%;
+    margin: 30px 0px 0px 0px;
 }
-.design-articles{
-    width:100vw;
-    background-color:rgb(226, 226, 226);
-    border-left: 35px solid rgb(226, 226, 226);
-    border-right: 35px solid rgb(226, 226, 226);
-    border-bottom: 10px solid rgb(226, 226, 226);
-    border-top: 40px solid rgb(226, 226, 226);
+.subtitulosFooter{
+    margin: 10px 0px 0px 0px;
+    width: 100%;
 }
+.enunciado-box{
+    display: flex;
+    flex-wrap: wrap;
+    height: 10vh;
+    width: 33%;
+}
+p5{
+    font-size: 12px;
+    height: fit-content;
+    justify-content: center;
+    line-height: 20px;
+    width: 100%;
+}
+
 }
