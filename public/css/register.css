@@ -50,11 +50,8 @@
     box-shadow: 0px 0px 10px rgb(100 100 100);
     width: 80vw;
     justify-content: center;
-    margin-top: 30px;
-    margin-left: 10%;
-    height: 180vh;
-    min-height: 950px;
-    max-height: 930px;
+    margin: 30px 0px 30px 10%;
+    height: 140vh;
 }
 .formulario{
     margin: 10px;
@@ -216,7 +213,7 @@ button:hover{
     max-height: 898px;
 }
 .formulario{
-    margin: 10px;
+    margin: 10px 0px 20px 0px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -237,7 +234,6 @@ button:hover{
 .titulo{
     margin: 30px 55px 10px 55px;
 }
-
 .subtitulos{
     width: fit-content;
     margin-left: 10px;

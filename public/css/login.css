@@ -287,17 +287,33 @@ button:hover{
     text-align: center;
 }
 i.fa-solid.fa-credit-card{
+    color: black;
+    font-size: 40px;
+    margin: 15px 0px 0px 0px;;
+    width: 100%;
+}
+i.fa-solid.fa-credit-card:hover{
     color: blue;
     font-size: 40px;
     margin: 15px 0px 0px 0px;;
     width: 100%;
 }
 i.fa-solid.fa-gift{
+    color: black;
+    font-size: 40px;
+    width: 100%;
+}
+i.fa-solid.fa-gift:hover{
     color: blue;
     font-size: 40px;
     width: 100%;
 }
 i.fa-solid.fa-user-shield{
+    color: black;
+    font-size: 40px;
+    width: 100%;
+}
+i.fa-solid.fa-user-shield:hover{
     color: blue;
     font-size: 40px;
     width: 100%;
