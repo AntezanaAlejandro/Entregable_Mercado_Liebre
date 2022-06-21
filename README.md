@@ -8,4 +8,4 @@ Espero que les sea ameno mi imitacion del maquetado de mercado libr3.
 ¡Larga vida y prosperidad! 🖖
 
 
->Este projecto tiene solamente una connotacion academica y meramente educativo.
+>Este projecto tiene solamente una connotacion academica y meramente educativa.
