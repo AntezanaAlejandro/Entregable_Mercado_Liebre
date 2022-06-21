@@ -15,7 +15,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 33vh;
+    height: 25vh;
     padding: 15px 0px 0px 0px;
     text-align: center;
     width: 100%;
@@ -70,6 +70,9 @@ i.fa-solid.fa-hand-holding-dollar{
 .bars-box{
     height: 6vh;
     margin: 10px 0px 20px 0px;
+    position: absolute;
+    bottom: 15vh;
+    left: 2vw;
     width:50px;
 }
 i.fas.fa-bars{
