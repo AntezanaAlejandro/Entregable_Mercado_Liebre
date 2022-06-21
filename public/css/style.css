@@ -243,6 +243,257 @@ p5{
 }
 
 
+
+
+/*BREAKPOINT SMARTPHONE LANDSCAPE*/
+@media(min-width: 1px)and(orentation=landscape){
+    *{box-sizing: border-box;}
+
+
+/*PADRES*/
+.main{
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+.top1{
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px rgb(100, 100, 100);
+    background-color: #fff159;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 23vh;
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+
+/*NAV-BAR1*/
+.logo{
+    border: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+}
+.logoSolo{
+    display: none;
+}
+.inputs{
+    border: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(100, 100, 100);
+    margin: 10px;
+    height: 40px;
+    align-content: center;
+    width: 60vw;
+}
+.lupa-box{
+    height: 1px;
+}
+i.fa-solid.fa-magnifying-glass{
+    border-left: 1px solid rgb(198, 198, 198);
+    bottom: 5.1vh;
+    color: rgb(77, 77, 77);
+    font-size: 20px;
+    padding-left: 10px;
+    position: relative;
+    left: 24vw;
+    width: fit-content;
+}
+.mano-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+i.fa-solid.fa-hand-holding-dollar{
+    position: relative;
+}
+.cuotas{
+    margin: 0%;
+}
+.bars-box{
+    height: 6vh;
+    margin: 10px 0px 20px 0px;
+    position: absolute;
+    bottom: 13vh;
+    left: 2vw;
+    width:50px;
+}
+i.fas.fa-bars{
+    background-color:#03264c;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgb(100, 100, 100);
+    color:  #ffff;
+    display: block;
+    font-size: 20px;
+    height: fit-content;
+    max-width: 50px; 
+    margin: auto;          
+    padding: 15px 0;
+    text-align: center;
+}
+
+
+/*NAVBAR2*/
+.top2{
+    display: none;
+}
+.index-box{
+    display: none;
+}
+.index-left{
+    display: none;
+}
+.index-right{
+    display: none;
+}
+.banner{
+    box-shadow: 0px 0px 10px 1px rgb(100, 100, 100);
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 8;
+}
+
+
+/*ARTICULOS*/
+.titulos{
+    text-align: center;
+    font-size: 4vw;
+    position: relative;
+    z-index: 5;
+}
+.articulos{
+    background-color:rgb(226, 226, 226);
+}
+.containerA{
+    background-color:rgb(226, 226, 226);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 35%;
+    justify-content: center;
+}
+.containerB{
+    background-color:rgb(226, 226, 226);
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    height: 35%h;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 80vw;
+    margin: 10px;
+    border-radius: 0.2em;
+}
+.image-article img{
+    border-radius: 0.2em;
+    text-align: center;
+    height: 100%;  
+    width: 100%;   
+}
+.line{
+    border-top: 1px solid #ebebeb;
+}
+.detail{
+    background-color:#ffff;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 15px;
+    width: 100%;
+}
+i.fa-solid.fa-truck{
+    border: 1.5px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    bottom: 35px;
+    color: #39b54a;
+    font-size: 20px;
+    height: 35px;
+    justify-content: flex-end;
+    padding: 5px;
+    position: relative;
+    right: -45%;
+    width: 35px;
+}
+.productCost{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0px 0px 5px;
+    width: 35%;
+}
+.productPorcent{
+    color: #39b54a;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 30px 0px 5px;
+    width: 95%;
+}
+.productName{
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 0px 5px;
+    width: 85%;
+}
+
+
+/*FOOTER*/
+.footer-box{
+    box-shadow: 0px 0px 10px gray;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+i.fa-solid.fa-credit-card{
+    color: blue;
+    font-size: 40px;
+    margin: 15px 0px 0px 16.5vh;
+    width: 100%;
+}
+i.fa-solid.fa-gift{
+    color: blue;
+    font-size: 40px;
+    margin: 15px 0px 0px 16.5vh;
+    width: 100%;
+}
+i.fa-solid.fa-user-shield{
+    color: blue;
+    font-size: 40px;
+    margin: 15px 0px 0px 16.5vh;
+    width: 100%;
+}
+.enunciado-box{
+    display: flex;
+    flex-wrap: wrap
+
+}
+.subtitulosFooter{
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+
+}
+p5{
+    font-size: 12px;
+    text-align: center;
+    margin: 5px 40px 10px 40px;
+    line-height: 20px;
+}
+
+}
+
 /*BREAKPOINT TABLETS*/
 @media(min-width: 481px){
 *{box-sizing: border-box;}
