@@ -164,7 +164,7 @@ p5{
 }
 
 /*BREAKPOINT TABLETS*/
-@media(min-width: 481px){
+@media(min-width: 481px)and(orentation=landscape){
     *{box-sizing: border-box;}
 
 /*PADRES*/
