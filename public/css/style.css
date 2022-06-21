@@ -210,17 +210,19 @@ i.fa-solid.fa-truck{
 i.fa-solid.fa-credit-card{
     color: blue;
     font-size: 40px;
-    margin: 15px 0px 0px 0px;
+    margin: 15px 0px 0px 16.5vh;
     width: 100%;
 }
 i.fa-solid.fa-gift{
     color: blue;
     font-size: 40px;
+    margin: 15px 0px 0px 16.5vh;
     width: 100%;
 }
 i.fa-solid.fa-user-shield{
-    font-size: 40px;
     color: blue;
+    font-size: 40px;
+    margin: 15px 0px 0px 16.5vh;
     width: 100%;
 }
 .enunciado-box{
