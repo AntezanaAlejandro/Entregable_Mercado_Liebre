@@ -151,7 +151,7 @@ button{
     height: 60px;
 }
 button:hover{
-    background-color: rgba(0, 29, 194, 0.834);
+    background-color: #0022AA;
     cursor: pointer;
 }
     
@@ -324,7 +324,7 @@ button{
 
 }
 button:hover{
-    background-color: rgba(0, 29, 194, 0.834);
+    background-color: #0022AA;
     cursor: pointer;
 }
 
@@ -500,7 +500,7 @@ button{
 
 }
 button:hover{
-    background-color: rgba(0, 29, 194, 0.834);
+    background-color: #0022AA;
     cursor: pointer;
 }
 

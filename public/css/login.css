@@ -106,7 +106,7 @@ button{
     height: 60px;
 }
 button:hover{
-    background-color: rgba(0, 29, 194, 0.834);
+    background-color: #0022AA;
     cursor: pointer;
 }
 .formulario{
@@ -265,7 +265,7 @@ button{
     height: 70px;
 }
 button:hover{
-    background-color: rgba(0, 29, 194, 0.834);
+    background-color: #0022AA;
     cursor: pointer;
 }
 .formulario{
@@ -440,7 +440,7 @@ button{
     height: 70px;
 }
 button:hover{
-    background-color: rgba(0, 29, 194, 0.834);
+    background-color: #0022AA;
     cursor: pointer;
 }
 .formulario{
