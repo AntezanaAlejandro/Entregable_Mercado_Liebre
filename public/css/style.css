@@ -468,6 +468,22 @@ i.fa-solid.fa-truck{
     right: -45%;
     width: 35px;
 }
+i.fa-solid.fa-truck:hover{
+    border: 1.5px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    bottom: 35px;
+    color: #39b54a;
+    font-size: 20px;
+    height: 35px;
+    justify-content: flex-end;
+    padding: 5px;
+    position: relative;
+    right: -45%;
+    transform: rotateZ(-30deg);
+    transition: all 800ms;
+    width: 35px;
+}
 .productCost{
     font-weight: bold;
     font-size: 18px;
@@ -765,6 +781,22 @@ i.fa-solid.fa-truck{
     padding: 5px;
     position: relative;
     right: -45%;
+    width: 35px;
+}
+i.fa-solid.fa-truck:hover{
+    border: 1.5px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    bottom: 35px;
+    color: #39b54a;
+    font-size: 20px;
+    height: 35px;
+    justify-content: flex-end;
+    padding: 5px;
+    position: relative;
+    right: -45%;
+    transform: rotateZ(-30deg);
+    transition: all 800ms;
     width: 35px;
 }
 .productCost{
